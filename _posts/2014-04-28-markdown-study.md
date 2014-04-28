@@ -12,9 +12,10 @@ Markdown 是一种轻量级的「标记语言」，它的优点很多，目前�
 
 ###合适工具
 ----
-![Mou.png](www.geekbing.com/img/Mou_128.png)
+![Mou.png](http://geekbing.com/img/Mou_128.png)
+
 在Mac OS X上，我强烈建议你用[Mou](http://mouapp.com/)这款免费且十分好用的Markdown编辑器，它支持实时预览，既左边是你编辑Markdown语言，右边会实时的生成预览效果，本文就是Mou这款软件写出来的。
-![markdown.png](wwww.geekbing.com/img/markdown.png)
+![markdown.png](http://geekbing.com/img/markdown.png)
 
 
 ###基本符号
