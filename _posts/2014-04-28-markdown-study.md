@@ -14,7 +14,7 @@ Markdown 是一种轻量级的「标记语言」，它的优点很多，目前�
 
 ![Mou.png](http://geekbing.com/img/Mou_128.png)
 
-在Mac OS X上，我强烈建议你用[Mou](http://mouapp.com/)这款免费且十分好用的Markdown编辑器，它支持实时预览，既左边是你编辑Markdown语言，右边会实时的生成预览效果，本文就是Mou这款软件写出来的。
+在Mac OS X上，建议你使用[Mou](http://mouapp.com/)这款免费且十分好用的Markdown编辑器，它支持实时预览，既左边是你编辑Markdown语言，右边会实时的生成预览效果，本文就是Mou这款软件写出来的。
 ![markdown.png](http://geekbing.com/img/markdown.png)
 
 
@@ -32,7 +32,7 @@ Markdown 是一种轻量级的「标记语言」，它的优点很多，目前�
 
 ###标题
 ----
-* 生成h1--h6,在文字前面加上 1--6个# s来实现
+* 生成h1--h6,在文字前面加上 1--6个# 来实现
 
 ###引用
 ----
@@ -49,13 +49,13 @@ Markdown 是一种轻量级的「标记语言」，它的优点很多，目前�
 ----
 * 直接写 \[锚文本](url "可选的title")
 * 预先定义 [ref_name]:url,然后在需要写入url的地方， 这样使用[锚文本][ref_name]，通常的ref_name一般用数字表示，这样显得专业
-* 简写url：用尖括号包裹url，例如<url>，这样生成的url锚文本就是url本身
+* 简写url：用尖括号包裹url，例如\<url>，这样生成的url锚文本就是url本身
 
 ###图片
 ----
 * 一行表示: \!\[alt_text](url "可选的title")
 * 引用表示法: ![alt_text][id],预先定义 [id]:url "可选title"
-* 直接使用<img>标签，这样可以指定图片的大小尺寸
+* 直接使用\<img>标签，这样可以指定图片的大小尺寸
 
 ###特殊符号
 ----
