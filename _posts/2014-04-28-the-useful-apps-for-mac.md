@@ -11,9 +11,8 @@ date:   2014-04-29
 6. [播放器](#player)
 7. [办公类](#work)
 
----
+----
 使用OS X系统也已经有段时间了,大多数windows上面的软件也有对应的Mac版本。下面记录一些我自己认为不错的Mac软件，适用OS X 10.9 Mavericks。其实很多软件需要自己去尝试，适合自己的才是最好的。
-
 ##<a id="develop"></a>开发类
 + #### Github
 	随着越来越多的应用程序转移到了云上，Github已经成为了管理软件开发以及发现已有代码的首选方法。除了允许个人和组织创建和访问代码库以外，它也提供了一些方便社会化软件开发的功能，包括允许用户跟踪其他用户、组织、软件库的动态，对软件代码的改动和bug提出评论等。GitHub也提供了图表功能，用于显示开发者们怎样在代码库上工作以及软件的开发活跃程度。
@@ -35,7 +34,6 @@ CodeRunner能够编辑10种不同的编程语言,可以简单又快捷的编辑�
 
 + ####Mou
 让用户专注于写作。直观清爽，功能简洁到位,是一款非常不错的所见即所得Markdown编辑器。本文就是使用这款软件编辑的。
-
 ##<a id="tools"></a>工具类
 - ####Chrome
 强大，简洁，快速的浏览器。每个人都应该有一个Chrome浏览器。
@@ -63,38 +61,28 @@ Windows 7窗口管理新功能Aero Snap方便有用，Mac下则可用 Cinch 实�
 
 - ####Android File Tranfer
 使Mac可以连接你的Android手机，并直观的管理手机文件。
-
 #<a id="chat"></a>聊天类
-
 - ####QQ
 必备的聊天类软件。功能比windows版本的要稍差一些。
 
 - ####FaceTime
 系统自带的体验不错的视频通话工具。
-
 #<a id="efficiency"></a>效率类
-
 - ####Alfred
 个人以为小帽子Alfred是Mac平台上最为传奇的效率作品，也是极客必备的神器。可以快速的搜索本地程序、使用搜索引擎搜索、查询词典、发送邮件、查找文件、剪贴板管理、音乐控制等等功能，十分强大。2.0 Workflow新带来全新的Feedback原生Notification等功能造就了很多新奇的玩法，甚至打败了之前 Popclip 的一些此类功能。拥有一些优秀实用的Workflows。
-
 #<a id="VirtualMachine"></a>虚拟机
-
 - ####Parallels Desktop
 功能强大的虚拟机，试用下来比VMware Workstation和virtual box更加的易用和强大。有时候必须使用windows平台下的一些软件，又不想在Mac下直接安装windows系统，那就有必要安装虚拟机了。很多人对于Mac下面安装windows系统持不同意见，还是那句话，适合自己的才是最好的。 
 
 - ####Genymotion
 最快的Android模拟器，开发调试Android程序必备。不过一般直接使用数据线连接手机调试程序最快最直接。
-
 #<a id="player"></a>播放器
-
 - ####射手影音
 小巧，开源，安全，高性能的播放器。支持绝大多数视频格式。
 
 - ####虾米音乐
 每个人对于音乐和音乐播放器都有着自己的偏好，其实适合自己的才是最好的。
-
 #<a id="work"></a>办公类
-
 - ####iWork
 办公软件，对应于windows下的Office软件。虽然Mac下也有Office 2011，但是体验不佳。要是离不开windows下的Office，大可以使用虚拟机Parallels Desktop安装windows系统.
 
