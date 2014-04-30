@@ -85,4 +85,9 @@ Jekyll是一个简单的免费的Blog生成工具，类似WordPress。但是和W
 4. 404错误页面 
 Github Pages支持用户自定义404错误页面，并且方法也及其的简单。只需要编写404.html文件，并放在你的网站根目录下就可以了。具体参考可见[官方说明](https://help.github.com/articles/custom-404-pages)
 
+5. 参考教程   
+
+[使用Github Pages建独立博客](http://beiyuu.com/github-pages/)   
+[一步一步打造Geek风格的技术博客](http://www.lizherui.com/pages/2013/08/17/build_blog.html)     
+[Jekyll小结](http://bg.biedalian.com/2013/08/03/jekyll-summary.html)
 ####最后，由于篇幅有限，有些问题可能没有讲得太详细，还请谅解。不过在另一方面这也可以锻炼一下大家上网查找资料解决问题以及实际动手实践的能力。最后，有任何问题都可以发邮件给我（点击<a href="mailto:dhuzbb@gmail.com">Contact</a>），非常乐意为您解答。
