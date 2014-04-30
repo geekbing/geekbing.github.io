@@ -20,8 +20,8 @@ date:   2014-05-03
 
 ###<a id="learnGithubPages"></a>了解Github Pages
 Git是一个开源的分布式版本控制系统，用以有效、高速的处理从很小到非常大的项目版本管理。   
-GitHub是可以托管各种git库的站点。
-Jekyll是一个静态网页生成器。   
+GitHub是可以托管各种git库的站点。   
+Jekyll是一个简单的免费的Blog生成工具，类似WordPress。但是和WordPress又有很大的不同，原因是Jekyll只是一个生成静态网页的工具，不需要数据库支持。但是可以配合第三方服务,例如disqus。最关键的是Jekyll可以免费部署在Github上，而且可以绑定自己的域名。     
 [Github Pages](https://pages.github.com/)是免费的静态站点，三个特点：免费托管、自带主题、支
 持自制页面和Jekyll。   
 
@@ -42,16 +42,15 @@ Jekyll是一个静态网页生成器。
 ![installGithub](http://geekbing.com/img/installGithub.png)
 
 ###<a id="installJekyll"></a>安装Jekyll
-虽然[Jekyll官网](http://jekyllrb.com/)上介绍在Mac下安装Jekyll只需要简单的一条gem install jekyll命令,但是实际操作起来简直是坑。安装Jekyll的时候，遇到了各种意想不到的问题。参考了各种解决方法，折腾了两天最后才搞定了。安装过程中可能会遇到不同的问题，请大家根据自己的具体情况对照最全的[解决方法]()。
-不过，对于我个人的情况，上面的解决方法没有起到作用，直到千辛万苦查找到，
+虽然[Jekyll官网](http://jekyllrb.com/)上介绍在Mac下安装Jekyll只需要简单的一条gem install jekyll命令,但是实际操作起来简直是坑。安装Jekyll的时候，遇到了各种意想不到的问题。参考了各种解决方法，折腾了两天最后才搞定。安装过程中可能会遇到不同的问题，请大家根据自己的具体情况对照[解决方法](http://xthinking.com/github/2014/03/17/github_install_jekyll_mavericks.html)。
+
 ![installJekyll](http://geekbing.com/img/installJekyll.png)
-原来升级最新的OS X 10.9.2造成的安装Jekyll Bug,参考页面[],在终端中输入如下命令即可安装成功。
 
 ###<a id="learnMarkdown"></a>熟悉Markdown语法
 个人认为Markdown语法对于博客内容发布或者写作者来说，都是非常值得学习的。因为其学习成本非常之低，作用却很大。基本上在10分钟内掌握语法不成问题。大家可以参考之前我写的一篇博文［[Markdown简明语法学习](http://geekbing.com/2014/04/30/markdown-study.html)］
 
 ###<a id="template"></a>编写页面模版
-之前的任务都很轻松，接下来才是重头戏了。对于新手
+之前的任务都很轻松，接下来才是重头戏了。首先在Github上面新建一个Repositories
 就是编写页面模版的阶段了，虽然官方也提供了
 
 
