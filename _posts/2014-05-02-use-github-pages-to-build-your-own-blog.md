@@ -51,6 +51,14 @@ Jekyll是一个简单的免费的Blog生成工具，类似WordPress。但是和W
 
 ###<a id="template"></a>编写页面模版
 之前的任务都很轻松，接下来才是重头戏了。首先在Github上面新建一个Repositories
+![createRepositories](http://geekbing.com/img/create.png)
+创建好之后，点击右下角的Clone in Desktop按钮，就会默认离线到本地。同时会默认的打开Github程序。
+![clone](http://geekbing.com/img/clone.png)
+接下来就是使用Jekyll初始化离线到本地的Repositories文件夹。在终端中，使用cd命令先进入离线到本地对应的文件夹，然后输入Jekyll初始化命令
+![init](http://geekbing.com/img/init.png)
+接下来打开浏览器就可以在本地访问Jekyll默认提供网站了。
+
+
 就是编写页面模版的阶段了，虽然官方也提供了
 
 
