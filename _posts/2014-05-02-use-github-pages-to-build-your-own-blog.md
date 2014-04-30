@@ -51,11 +51,8 @@ Jekyll是一个简单的免费的Blog生成工具，类似WordPress。但是和W
 个人认为Markdown语法对于博客内容发布或者写作者来说，都是非常值得学习的。因为其学习成本非常之低，作用却很大。基本上在10分钟内掌握语法不成问题。大家可以参考之前我写的一篇博文［[Markdown简明语法学习](http://geekbing.com/2014/04/30/markdown-study.html)］
 
 ###<a id="template"></a>编写页面模版
-之前的任务都很轻松，接下来才是重头戏了。首先在Github上面新建一个Repositories,命名为study
-![createRepositories](http://geekbing.com/img/create.png)
-创建好之后，点击右下角的Clone in Desktop按钮，就会默认离线到本地。同时会默认的打开Github程序。
-![clone](http://geekbing.com/img/clone.png)
-接下来就是使用Jekyll初始化离线到本地的Repositories文件夹。在终端中，使用cd命令先进入离线到本地对应的文件夹，然后输入如下Jekyll初始化命令：
+之前的任务都很轻松，接下来才是重头戏了。
+在终端中，使用cd命令先进入离线到本地对应的文件夹，然后输入如下Jekyll初始化命令：
 ![init](http://geekbing.com/img/init.png)
 接下来打开浏览器就可以在本地访问Jekyll默认提供网站了。
 
@@ -64,13 +61,22 @@ Jekyll是一个简单的免费的Blog生成工具，类似WordPress。但是和W
 
 
 ###<a id="firstPost"></a>写第一篇博客
-怀着激动的心情编写你的第一篇博客吧。（第一篇博客怎么能够少了神圣的Hello world呢）。虽然这只是一小步，确实迈向.com浪潮的一大步。
+怀着激动的心情编写你的第一篇博客吧。在markdown编辑器Mou中编写你的第一篇博客（第一篇博客怎么能够少了神圣的Hello world呢）。注意文件的开头的写法，最后文件保存为.md格式，并放在_post文件夹中。
+![first](http://geekbing.com/img/first.png)
+接下来就是简单的编译了。
+![init](http://geekbing.com/img/init.png)
+虽然这只是一小步，却是迈向个人博客的一大步。接下来就是通过浏览器在线访问你的博客了。还等什么，快开啤酒庆祝吧。
 
 ###<a id="localTest"></a>本地测试
 在终端简单的输入如下两条命令之后，就可以在浏览器中查看博客的具体显示效果了。如果对于字体大小，颜色不太满意，可以修改具体的css样式表。
 
 ###<a id="commitAndSync"></a>同步和发布
-同步和发布没有太多要讲的内容。你在离线到本地的Repositories文件夹中所做的所有修改都会显示在Github中，只需要简简单单的点击Commit & Sync按钮即可同步到Github的服务器上。接下来就是通过浏览器在线访问你的博客了。还等什么，快开啤酒庆祝吧。
+
+首先在Github上面新建一个Repositories,命名为study
+![createRepositories](http://geekbing.com/img/create.png)
+创建好之后，点击右下角的Clone in Desktop按钮，就会默认离线到本地study文件夹中。同时会打开Github程序。
+![clone](http://geekbing.com/img/clone.png)
+将之前Jekyll创建的文件夹my-awesome-site中的内容全部复制到study中。这样以后你在离线到本地的study文件夹中所做的所有修改都会显示在Github中，只需要简简单单的点击Commit & Sync按钮即可同步到Github的服务器上。
 
 ###<a id="others"></a>其他方面
 
