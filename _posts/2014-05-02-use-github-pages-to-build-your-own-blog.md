@@ -43,18 +43,19 @@ Jekyll是一个简单的免费的Blog生成工具，类似WordPress。但是和W
 
 ###<a id="installJekyll"></a>安装Jekyll
 虽然[Jekyll官网](http://jekyllrb.com/)上介绍在Mac下安装Jekyll只需要简单的一条gem install jekyll命令,但是实际操作起来简直是坑。安装Jekyll的时候，遇到了各种意想不到的问题。参考了各种解决方法，折腾了两天最后才搞定。安装过程中可能会遇到不同的问题，请大家根据自己的具体情况对照[解决方法](http://xthinking.com/github/2014/03/17/github_install_jekyll_mavericks.html)。
-
 ![installJekyll](http://geekbing.com/img/installJekyll.png)
+根据上图输入命令之后，在浏览器中就可以访问默认的网站了。
+![browse](http://geekbing.com/img/browse.png)
 
 ###<a id="learnMarkdown"></a>熟悉Markdown语法
 个人认为Markdown语法对于博客内容发布或者写作者来说，都是非常值得学习的。因为其学习成本非常之低，作用却很大。基本上在10分钟内掌握语法不成问题。大家可以参考之前我写的一篇博文［[Markdown简明语法学习](http://geekbing.com/2014/04/30/markdown-study.html)］
 
 ###<a id="template"></a>编写页面模版
-之前的任务都很轻松，接下来才是重头戏了。首先在Github上面新建一个Repositories
+之前的任务都很轻松，接下来才是重头戏了。首先在Github上面新建一个Repositories,命名为study
 ![createRepositories](http://geekbing.com/img/create.png)
 创建好之后，点击右下角的Clone in Desktop按钮，就会默认离线到本地。同时会默认的打开Github程序。
 ![clone](http://geekbing.com/img/clone.png)
-接下来就是使用Jekyll初始化离线到本地的Repositories文件夹。在终端中，使用cd命令先进入离线到本地对应的文件夹，然后输入Jekyll初始化命令
+接下来就是使用Jekyll初始化离线到本地的Repositories文件夹。在终端中，使用cd命令先进入离线到本地对应的文件夹，然后输入如下Jekyll初始化命令：
 ![init](http://geekbing.com/img/init.png)
 接下来打开浏览器就可以在本地访问Jekyll默认提供网站了。
 
