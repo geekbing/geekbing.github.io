@@ -35,7 +35,8 @@ Jekyll是一个静态网页生成器。
 
 ###<a id="createGithubAccount"></a>创建Github账户
 创建Github账户很容易，直接到[官方网站](https://github.com/)注册即可，几乎没有难度。
-![Github官网](http://geekbing/img/github.png)
+![Github官网](http://geekbing.com/img/github.png)
+
 ###<a id="installGithub"></a>安装Github客户端
 在官网下载Github安装程序，推荐新手安装Github的图形用户界面，这样使用起来很容易上手，不至于在一开始就被命令行影响愉快的心情。安装Github也是不用花费脑筋的事（PS:什么？不会安装程序？？？那还是默默的关闭浏览器吧)。
 
