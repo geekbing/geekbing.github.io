@@ -42,7 +42,7 @@ Jekyll是一个静态网页生成器。
 ![installGithub](http://geekbing.com/img/installGithub.png)
 
 ###<a id="installJekyll"></a>安装Jekyll
-虽然[Jekyll官网](http://jekyllrb.com/)上介绍在Mac下安装Jekyll只需要简单的一条gem jekyll命令,但是实际操作起来简直是坑。安装Jekyll的时候，遇到了各种意想不到的问题。参考了各种解决方法，折腾了两天最后才搞定了。安装过程中可能会遇到不同的问题，请大家根据自己的具体情况对照最全的[解决方法]()。
+虽然[Jekyll官网](http://jekyllrb.com/)上介绍在Mac下安装Jekyll只需要简单的一条gem install jekyll命令,但是实际操作起来简直是坑。安装Jekyll的时候，遇到了各种意想不到的问题。参考了各种解决方法，折腾了两天最后才搞定了。安装过程中可能会遇到不同的问题，请大家根据自己的具体情况对照最全的[解决方法]()。
 不过，对于我个人的情况，上面的解决方法没有起到作用，直到千辛万苦查找到，
 ![installJekyll](http://geekbing.com/img/installJekyll.png)
 原来升级最新的OS X 10.9.2造成的安装Jekyll Bug,参考页面[],在终端中输入如下命令即可安装成功。
