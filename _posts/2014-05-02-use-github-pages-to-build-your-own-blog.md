@@ -39,6 +39,7 @@ Jekyll是一个静态网页生成器。
 
 ###<a id="installGithub"></a>安装Github客户端
 在官网下载Github安装程序，推荐新手安装Github的图形用户界面，这样使用起来很容易上手，不至于在一开始就被命令行影响愉快的心情。安装Github也是不用花费脑筋的事（PS:什么？不会安装程序？？？那还是默默的关闭浏览器吧)。
+![installGithub](http://geekbing.com/img/installGithub.png)
 
 ###<a id="installJekyll"></a>安装Jekyll
 虽然Jekyll官方网站上介绍在Mac下安装Jekyll只需要简单的一条gem jekyll命令,但是实际操作起来简直是坑。安装Jekyll的时候，遇到了各种意想不到的问题。参考了各种解决方法，折腾了两天最后才搞定了。安装过程中可能会遇到不同的问题，请大家根据自己的具体情况对照最全的[解决方法]()。
