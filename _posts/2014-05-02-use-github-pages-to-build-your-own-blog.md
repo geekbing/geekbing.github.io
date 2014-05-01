@@ -73,20 +73,19 @@ Jekyll是一个简单的免费的Blog生成工具，类似WordPress。但是和W
 
 ###<a id="others"></a>其他方面
 
-1. 绑定域名
+1. 绑定域名   
 如果需要通过你自己的独立域名访问到博客网站（前提是你需要先有一个域名，如果没有的话，可以在[万网](http://www.net.cn/)购买），可以在项目下面新建一个CNAME文件，然后在其中写上你的域名，例如geekbing.com。之后在你购买域名的服务商修改DNS解析记录，等待一段时间后就可以访问了通过域名在线访问你的博客了。具体细节请看[Github官方说明](https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages)
 
-2. 域名解析
+2. 域名解析   
 国内专门做域名解析做得比较好的有[DNSPod](https://www.dnspod.cn/),对于一般的个人用户是免费的。虽然万网近期也依靠阿里云解析提供域名解析。但是貌似DNSPod做得更好一些，使用的人数也更多一些。修改域名不是很困难，网上也有很多的教程,请大家自行Google吧。
 
-3. 使用模版
+3. 使用模版   
 对于新手来说，Jekyll默认提供了非常简单的模版。Github Pages官方网站也提供了漂亮的模版可以使用，不需要自己动手去修改，就可以直接使用。同时另一个专门为Github pages提供模版的网站[JekyllBootstrap](http://jekyllbootstrap.com/)也提供了大量漂亮的模版供他人免费使用。不过这样也失去了一些DIY的乐趣。对于有一定网页编写经验的人，完全可以自己动手编写模版。毕竟，有自己特色的博客会让人感觉很酷。
 
-4. 404错误页面 
+4. 404错误页面    
 Github Pages支持用户自定义404错误页面，并且方法也及其的简单。只需要编写404.html文件，并放在你的网站根目录下就可以了。具体参考可见[官方说明](https://help.github.com/articles/custom-404-pages)
 
 5. 参考教程   
-
 [使用Github Pages建独立博客](http://beiyuu.com/github-pages/)   
 [一步一步打造Geek风格的技术博客](http://www.lizherui.com/pages/2013/08/17/build_blog.html)     
 [Jekyll小结](http://bg.biedalian.com/2013/08/03/jekyll-summary.html)
