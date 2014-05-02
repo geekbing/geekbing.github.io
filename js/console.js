@@ -1,0 +1,1 @@
+console.log('\t\t\t\t\t\t\t\tWrite less\n\t\t\t\t\t\t\tThink more');
