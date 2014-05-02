@@ -14,6 +14,6 @@ Disqus的官方网站做得还比较有特色。
 首先要使用Disqus的服务，必须在官网注册一个账号。你不但可以使用这个账号来为你的网站添加评论系统，托管你的评论服务，还可以使用这个账号在任何使用Disqus评论系统的网站进行留言，回复等功能，而不需重复的注册账号。
 ![signUp](http://geekbing.com/img/disqussignup.png)
 
-然后按照要求填写下列信息,   
+然后按照要求填写下列信息,其中的site name按照自己的网站域名填写。Category根据自己实际情况选择。 最后点击Finish registration按钮。  
 ![addDisqus](http://geekbing.com/img/addDisqus.png)
 
