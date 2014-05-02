@@ -12,9 +12,8 @@ Disqus的官方网站做得还比较有特色。
 #####为个人博客添加Disqus评论系统
 其实Disqus的官方文档讲得也比较详细了，步骤和新手引导也做的比较好，这篇文档主要是为看官方文档头疼的新手做适当的讲解。   
 首先要使用Disqus的服务，必须在官网注册一个账号。你不但可以使用这个账号来为你的网站添加评论系统，托管你的评论服务，还可以使用这个账号在任何使用Disqus评论系统的网站进行留言，回复等功能，而不需重复的注册账号。
-
-
+![signUp](http://geekbing.com/img/disqussignup.png)
 
 然后按照要求填写下列信息
-
+![addDisqus](http://geekbing.com/img/adddisqus.png)
 
