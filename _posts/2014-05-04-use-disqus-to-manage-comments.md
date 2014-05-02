@@ -18,6 +18,14 @@ Disqus的官方网站做得还比较有特色。
 ![addDisqus](http://geekbing.com/img/addDisqus.png)    
 接下来就到了添加disqus到网站的时候。Disqus支持绝大多数主流的博客平台。并为其他没有使用博客产品的网站提供通用的代码，做到了全方位覆盖。由于个人博客是纯手工搭建，没有使用上面的任何一种博客产品，故选择第一种通用代码。
 ![addDisqus](http://geekbing.com/img/platform.png)
-接下来，就是
-![installDisqus1](http://geekbing.com/img/install1.png)
+
+1. 接下来，就是按照提示将下面的代码复制到你的模版文件中，放在你需要显示评论的地方，一般在文章的结尾处.![installDisqus1](http://geekbing.com/img/install1.png)
+2. Disqus官方还提供了javascript脚本的配置变量的[详细说明](http://help.disqus.com/customer/portal/articles/472098-javascript-configuration-variables)，若新手对这方面不太了解，也不需要去修改，直接使用就行。
+3. 接下来根据提示还需要复制一段脚本添加在你自己网站的模版文件中，添加的位置是</body>闭标签的前面（什么？？不知道body标签在哪？那还是默默的关闭浏览器吧）。![installDisqus2](http://geekbing.com/img/install2.png)
+4. 你可以通过一个链接来刷新评论，增加#disqus_thread到你的链接后面。点击这个链接将会刷新并返回评论数。例如：<a href="http://foo.com/bar.html#disqus_thread">Link</a> 
+5. 最后，官方提供了详细的[个人定制说明](http://help.disqus.com/customer/portal/articles/565624-tightening-your-disqus-integration)。新手其实可以直接使用官方通用的设置，等以后逐渐了解熟悉之后再去定制。  
+
+之后就是验证你的网站的评论系统是否安装成功。
+
+
 
