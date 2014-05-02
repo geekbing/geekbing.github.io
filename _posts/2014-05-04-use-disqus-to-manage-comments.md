@@ -15,5 +15,9 @@ Disqus的官方网站做得还比较有特色。
 ![signUp](http://geekbing.com/img/disqussignup.png)
 
 然后按照要求填写下列信息,其中的site name按照自己的网站域名填写。Category根据自己实际情况选择。 最后点击Finish registration按钮。  
-![addDisqus](http://geekbing.com/img/addDisqus.png)
+![addDisqus](http://geekbing.com/img/addDisqus.png)    
+接下来就到了添加disqus到网站的时候。Disqus支持绝大多数主流的博客平台。并为其他没有使用博客产品的网站提供通用的代码，做到了全方位覆盖。由于个人博客是纯手工搭建，没有使用上面的任何一种博客产品，故选择第一种通用代码。
+![addDisqus](http://geekbing.com/img/platform.png)
+接下来，就是
+![installDisqus1](http://geekbing.com/img/install1.png)
 
