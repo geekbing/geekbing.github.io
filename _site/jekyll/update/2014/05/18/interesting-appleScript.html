@@ -91,20 +91,35 @@
 
 <h4>总结AppleScript主要特点</h4>
 
-<ol>
-<li>好玩，有趣<br>
-最简单的，让系统嗡鸣一下。在系统自带的AppleScript编辑器中敲完之后点一下运行就会执行了。</li>
-</ol>
+<h5>NO1. 好玩，有趣</h5>
+
+<p>最简单的，让系统嗡鸣一下。在系统自带的AppleScript编辑器中敲完之后点一下运行就会执行了。</p>
 
 <div class="highlight"><pre><code class="applescript"><span class="nb">beep</span>
 </code></pre></div>
 
-<ol>
-<li><p>易懂，轻松<br>
-。。。</p></li>
-<li><p>强大，实用<br>
-。。。</p></li>
-</ol>
+<p>你还可以让系统朗读，使用say命令</p>
+
+<div class="highlight"><pre><code class="applescript"><span class="nb">say</span> <span class="s2">&quot;You are my world.&quot;</span>
+</code></pre></div>
+
+<p>再复杂一点，清空废纸篓，这个时候你就需要调用Finder了</p>
+
+<div class="highlight"><pre><code class="applescript"><span class="k">tell</span> <span class="nb">application</span> <span class="s2">&quot;Finder&quot;</span>
+    <span class="nv">empty</span> <span class="nb">the</span> <span class="nv">trash</span>
+<span class="k">end</span> <span class="k">tell</span>
+</code></pre></div>
+
+<p>这里tell application相当于呼唤程序，中间包夹的自然是要这个程序做什么，最后end tell表示对这个程序调用结束。<br>
+接下来，来点恶作剧怎么样？想象一下你好朋友的iPhone一直响个不停，接受的iMessage消息不断刷屏的场景。</p>
+
+<h5>NO2. 易懂，轻松</h5>
+
+<p>。。。</p>
+
+<h5>NO3. 强大，实用</h5>
+
+<p>。。。</p>
 
 <h4>未完待续。。。</h4>
 
