@@ -27,7 +27,10 @@ categories: jekyll update
 ####总结AppleScript主要特点
 
 1. 好玩，有趣     
-。。。
+最简单的，让系统嗡鸣一下。在系统自带的AppleScript编辑器中敲完之后点一下运行就会执行了。
+{% highlight applescript %}
+beep
+{% endhighlight %}
 
 2. 易懂，轻松     
 。。。
