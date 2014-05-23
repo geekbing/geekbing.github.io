@@ -4,46 +4,39 @@ title:  "Smartisan T1--工匠的情怀"
 date:   2014-05-20
 categories: jekyll update
 ---
-####Coming Soon.
-
 最近吸引大众目光的罗永浩锤子手机Smartisan T1终于发布了。     
-从最初到发布，历时长达两年时间。      
-暂时先不聊Smartisan T1 这部手机。因为个人很抛却其它的因素难客观公正的去评价好坏，毕竟掺杂了太多产品以外的判断，很难说；也没有使用真机，无法说。而关于发布会本身，各种角度的褒贬都有，所以我只说一个打动我内心的东西：Smartisan T1 的产品视频。
+&emsp;&emsp;从最初到发布，历时长达两年时间。      
+&emsp;&emsp;暂时先不聊Smartisan T1 这部手机。因为个人很抛却其它的因素难客观公正的去评价好坏，毕竟掺杂了太多产品以外的判断，很难说；也没有使用真机，无法说。而关于发布会本身，各种角度的褒贬都有，所以我只说一个打动我内心的东西：Smartisan T1 的产品视频。
 
 <iframe height=400 width=100% src="http://player.youku.com/embed/XNzE0NjA3NDA4" frameborder=0 allowfullscreen></iframe>
 
 抛开产品本身，纯粹从文案、宣讲方式、影视和给观众的感受来看，这个视频都是可以比肩 Apple 产品视频水准的东西。     
-Simplicity    
-is hidden complexity     
-简约     
-源自隐藏的精密
-
-The essence of flat     
-is super curved     
-平坦的本质    
-是极致的曲面
-
-Uncomfortable     
-is the new comfortable     
-不适感     
-导致了全新的舒适
-
-Right is right      
-Left is also right     
-让你的左右    
-不被产品左右
-
-No detail     
-can be too detailed     
-所有的细节     
-都决定成败
-
-Smartisan T1     
-born to be proud.     
-天生骄傲
+&emsp;&emsp;Simplicity    
+&emsp;&emsp;is hidden complexity     
+&emsp;&emsp;简约     
+&emsp;&emsp;源自隐藏的精密<br/>     
+&emsp;&emsp;The essence of flat     
+&emsp;&emsp;is super curved     
+&emsp;&emsp;平坦的本质    
+&emsp;&emsp;是极致的曲面<br/>     
+&emsp;&emsp;Uncomfortable     
+&emsp;&emsp;is the new comfortable     
+&emsp;&emsp;不适感     
+&emsp;&emsp;导致了全新的舒适<br/>     
+&emsp;&emsp;Right is right      
+&emsp;&emsp;Left is also right     
+&emsp;&emsp;让你的左右    
+&emsp;&emsp;不被产品左右<br/>     
+&emsp;&emsp;No detail     
+&emsp;&emsp;can be too detailed     
+&emsp;&emsp;所有的细节     
+&emsp;&emsp;都决定成败<br/>      
+&emsp;&emsp;Smartisan T1     
+&emsp;&emsp;born to be proud.     
+&emsp;&emsp;天生骄傲
 
 简洁，优雅，哲学。     
-节奏、韵律和重复，技巧高超，动人心弦。
+&emsp;&emsp;节奏、韵律和重复，技巧高超，动人心弦。
 
 从WWDC 2013 上阐释 iOS 7 设计理念的 Designed by Apple in Carlifornia到苹果官方网站宣传iPad的你的诗，Apple产品的宣传视频无不动人心弦。在看腻了其他厂商以流水线方式追随 Apple 那一套酷炫的宣讲方式之后，猛地突然看到 Smartisan T1 这个产品视频，真的有打动到我，相信其它观众也一样。
 

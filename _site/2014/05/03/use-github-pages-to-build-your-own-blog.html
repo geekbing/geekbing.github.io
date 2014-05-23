@@ -80,8 +80,8 @@
 
 <p>Git是一个开源的分布式版本控制系统，用以有效、高速的处理从很小到非常大的项目版本管理。<br>
 GitHub是可以托管各种git库的站点。<br>
-Jekyll是一个简单的免费的Blog生成工具，类似WordPress。但是和WordPress又有很大的不同，原因是Jekyll只是一个生成静态网页的工具，不需要数据库支持。但是可以配合第三方服务,例如disqus。最关键的是Jekyll可以免费部署在Github上，而且可以绑定自己的域名。<br>
-<a href="https://pages.github.com/">Github Pages</a>是免费的静态站点，三个特点：免费托管、自带主题、支
+&emsp;&emsp;Jekyll是一个简单的免费的Blog生成工具，类似WordPress。但是和WordPress又有很大的不同，原因是Jekyll只是一个生成静态网页的工具，不需要数据库支持。但是可以配合第三方服务,例如disqus。最关键的是Jekyll可以免费部署在Github上，而且可以绑定自己的域名。<br>
+&emsp;&emsp;<a href="https://pages.github.com/">Github Pages</a>是免费的静态站点，三个特点：免费托管、自带主题、支
 持自制页面和Jekyll。   </p>
 
 <h4>Github pages的优点：</h4>
@@ -108,7 +108,7 @@ Jekyll是一个简单的免费的Blog生成工具，类似WordPress。但是和W
 
 <p>虽然<a href="http://jekyllrb.com/">Jekyll官网</a>上介绍在Mac下安装Jekyll只需要简单的一条gem install jekyll命令,但是实际操作起来简直是坑。安装Jekyll的时候，遇到了各种意想不到的问题。参考了各种解决方法，折腾了两天最后才搞定。安装过程中可能会遇到不同的问题，请大家根据自己的具体情况对照<a href="http://xthinking.com/github/2014/03/17/github_install_jekyll_mavericks.html">解决方法</a>。
 <img src="http://geekbing.com/img/installJekyll.png" alt="installJekyll">
-根据上图输入命令之后，在浏览器中就可以访问默认的网站了。
+&emsp;&emsp;根据上图输入命令之后，在浏览器中就可以访问默认的网站了。
 <img src="http://geekbing.com/img/browse.png" alt="browse"></p>
 
 <h3><a id="learnMarkdown"></a>熟悉Markdown语法</h3>
@@ -123,9 +123,9 @@ Jekyll是一个简单的免费的Blog生成工具，类似WordPress。但是和W
 
 <p>怀着激动的心情编写你的第一篇博客吧。在markdown编辑器Mou中编写你的第一篇博客（第一篇博客怎么能够少了神圣的Hello world呢）。注意文件的开头的写法，最后文件保存为.md格式，并放在_post文件夹中。
 <img src="http://geekbing.com/img/first.png" alt="first">
-接下来就是简单的编译了。
+&emsp;&emsp;接下来就是简单的编译了。
 <img src="http://geekbing.com/img/init.png" alt="init">
-虽然这只是一小步，却是迈向个人博客的一大步。然后就是通过浏览器在线访问你的博客了。还等什么，快开啤酒庆祝吧。</p>
+&emsp;&emsp;虽然这只是一小步，却是迈向个人博客的一大步。然后就是通过浏览器在线访问你的博客了。还等什么，快开啤酒庆祝吧。</p>
 
 <h3><a id="localTest"></a>本地测试</h3>
 
@@ -135,29 +135,29 @@ Jekyll是一个简单的免费的Blog生成工具，类似WordPress。但是和W
 
 <p>首先在Github上面新建一个Repositories,命名为study
 <img src="http://geekbing.com/img/create.png" alt="createRepositories">
-创建好之后，点击右下角的Clone in Desktop按钮，就会默认离线到本地study文件夹中。同时会打开Github程序。
+&emsp;&emsp;创建好之后，点击右下角的Clone in Desktop按钮，就会默认离线到本地study文件夹中。同时会打开Github程序。
 <img src="http://geekbing.com/img/clone.png" alt="clone">
-将之前Jekyll创建的文件夹my-awesome-site中的内容全部复制到study中。这样以后你在离线到本地的study文件夹中所做的所有修改都会显示在Github中，只需要简简单单的点击Commit &amp; Sync按钮即可同步到Github的服务器上。
+&emsp;&emsp;将之前Jekyll创建的文件夹my-awesome-site中的内容全部复制到study中。这样以后你在离线到本地的study文件夹中所做的所有修改都会显示在Github中，只需要简简单单的点击Commit &amp; Sync按钮即可同步到Github的服务器上。
 <img src="http://geekbing.com/img/commit.png" alt="commit"></p>
 
 <h3><a id="others"></a>其他方面</h3>
 
 <ol>
-<li><p>绑定域名<br>
-如果需要通过你自己的独立域名访问到博客网站（前提是你需要先有一个域名，如果没有的话，可以在<a href="http://www.net.cn/">万网</a>购买），可以在项目下面新建一个CNAME文件，然后在其中写上你的域名，例如geekbing.com。之后在你购买域名的服务商修改DNS解析记录，等待一段时间后就可以访问了通过域名在线访问你的博客了。具体细节请看<a href="https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages">Github官方说明</a></p></li>
-<li><p>域名解析<br>
-国内专门做域名解析做得比较好的有<a href="https://www.dnspod.cn/">DNSPod</a>,对于一般的个人用户是免费的。虽然万网近期也依靠阿里云解析提供域名解析。但是貌似DNSPod做得更好一些，使用的人数也更多一些。修改域名不是很困难，网上也有很多的教程,请大家自行Google吧。</p></li>
-<li><p>使用模版<br>
-对于新手来说，Jekyll默认提供了非常简单的模版。Github Pages官方网站也提供了漂亮的模版可以使用，不需要自己动手去修改，就可以直接使用。同时另一个专门为Github pages提供模版的网站<a href="http://jekyllbootstrap.com/">JekyllBootstrap</a>也提供了大量漂亮的模版供他人免费使用。不过这样也失去了一些DIY的乐趣。对于有一定网页编写经验的人，完全可以自己动手编写模版。毕竟，有自己特色的博客会让人感觉很酷。</p></li>
-<li><p>404错误页面<br>
-Github Pages支持用户自定义404错误页面，并且方法也及其的简单。只需要编写404.html文件，并放在你的网站根目录下就可以了。具体参考可见<a href="https://help.github.com/articles/custom-404-pages">官方说明</a></p></li>
-<li><p>参考教程<br>
+<li>绑定域名<br>
+如果需要通过你自己的独立域名访问到博客网站（前提是你需要先有一个域名，如果没有的话，可以在<a href="http://www.net.cn/">万网</a>购买），可以在项目下面新建一个CNAME文件，然后在其中写上你的域名，例如geekbing.com。之后在你购买域名的服务商修改DNS解析记录，等待一段时间后就可以访问了通过域名在线访问你的博客了。具体细节请看<a href="https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages">Github官方说明</a><br/><br></li>
+<li>域名解析<br>
+国内专门做域名解析做得比较好的有<a href="https://www.dnspod.cn/">DNSPod</a>,对于一般的个人用户是免费的。虽然万网近期也依靠阿里云解析提供域名解析。但是貌似DNSPod做得更好一些，使用的人数也更多一些。修改域名不是很困难，网上也有很多的教程,请大家自行Google吧。<br/><br></li>
+<li>使用模版<br>
+对于新手来说，Jekyll默认提供了非常简单的模版。Github Pages官方网站也提供了漂亮的模版可以使用，不需要自己动手去修改，就可以直接使用。同时另一个专门为Github pages提供模版的网站<a href="http://jekyllbootstrap.com/">JekyllBootstrap</a>也提供了大量漂亮的模版供他人免费使用。不过这样也失去了一些DIY的乐趣。对于有一定网页编写经验的人，完全可以自己动手编写模版。毕竟，有自己特色的博客会让人感觉很酷。<br/><br></li>
+<li>404错误页面<br>
+Github Pages支持用户自定义404错误页面，并且方法也及其的简单。只需要编写404.html文件，并放在你的网站根目录下就可以了。具体参考可见<a href="https://help.github.com/articles/custom-404-pages">官方说明</a><br/><br></li>
+<li>参考教程<br>
 <a href="http://beiyuu.com/github-pages/">使用Github Pages建独立博客</a><br>
 <a href="http://www.lizherui.com/pages/2013/08/17/build_blog.html">一步一步打造Geek风格的技术博客</a><br>
-<a href="http://bg.biedalian.com/2013/08/03/jekyll-summary.html">Jekyll小结</a></p>
-
-<h4>最后，由于篇幅有限，有些问题可能没有讲得太详细，还请谅解。不过在另一方面这也可以锻炼一下大家上网查找资料解决问题以及实际动手实践的能力。最后，有任何问题都可以发邮件给我（点击<a href="mailto:dhuzbb@gmail.com">Contact</a>），非常乐意为您解答。</h4></li>
+<a href="http://bg.biedalian.com/2013/08/03/jekyll-summary.html">Jekyll小结</a></li>
 </ol>
+
+<h4>最后，由于篇幅有限，有些问题可能没有讲得太详细，还请谅解。不过在另一方面这也可以锻炼一下大家上网查找资料解决问题以及实际动手实践的能力。最后，有任何问题都可以发邮件给我（点击<a href="mailto:dhuzbb@gmail.com">Contact</a>），非常乐意为您解答。</h4>
 
 				</div>
 				<!-- 多说评论框 start -->
