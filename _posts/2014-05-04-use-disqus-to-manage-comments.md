@@ -10,11 +10,11 @@ Disqus的官方网站做得还比较有特色。
 ![disqus](http://geekbing.com/img/disqus.png)     
 ####为个人博客添加Disqus评论系统    
 其实Disqus的官方文档讲得也比较详细了，步骤和新手引导也做的比较好，这篇文档主要是为看官方文档头疼的新手做适当的讲解。       
-首先要使用Disqus的服务，必须在官网注册一个账号。你不但可以使用这个账号来为你的网站添加评论系统，托管你的评论服务，还可以使用这个账号在任何使用Disqus评论系统的网站进行留言，回复等功能，而不需重复的注册账号。    
+&emsp;&emsp;首先要使用Disqus的服务，必须在官网注册一个账号。你不但可以使用这个账号来为你的网站添加评论系统，托管你的评论服务，还可以使用这个账号在任何使用Disqus评论系统的网站进行留言，回复等功能，而不需重复的注册账号。    
 ![signUp](http://geekbing.com/img/disqussignup.png)         
-然后按照要求填写下列信息,其中的site name按照自己的网站域名填写。Category根据自己实际情况选择。 最后点击Finish registration按钮。       
+&emsp;&emsp;然后按照要求填写下列信息,其中的site name按照自己的网站域名填写。Category根据自己实际情况选择。 最后点击Finish registration按钮。       
 ![addDisqus](http://geekbing.com/img/addDisqus.png)         
-接下来就到了添加disqus到网站的时候。Disqus支持绝大多数主流的博客平台。并为其他没有使用博客产品的网站提供通用的代码，做到了全方位覆盖。由于个人博客是纯手工搭建，没有使用下面的任何一种博客产品，故选择第一种通用代码。    
+&emsp;&emsp;接下来就到了添加disqus到网站的时候。Disqus支持绝大多数主流的博客平台。并为其他没有使用博客产品的网站提供通用的代码，做到了全方位覆盖。由于个人博客是纯手工搭建，没有使用下面的任何一种博客产品，故选择第一种通用代码。    
 ![addDisqus](http://geekbing.com/img/platform.png)    
 
 1. 接下来，就是按照提示将下面的代码复制到你的模版文件中，放在你需要显示评论的地方，一般在文章的结尾处.![installDisqus1](http://geekbing.com/img/install1.png)    
