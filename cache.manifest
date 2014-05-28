@@ -5,10 +5,10 @@ CACHE:
 /about/index.html
 /jekyll/update/2014/04/28/welcome-to-jekyll.html
 /jekyll/update/2014/04/28/Hello-World.html
-/jekyll/update/2014/04/29/the-useful-apps-for-mac.html
-/jekyll/update/2014/04/30/markdown-study.html
-/jekyll/update/2014/05/02/why-i-blog.html
-/jekyll/update/2014/05/03/use-github-pages-to-build-your-own-blog.html
+/2014/04/29/the-useful-apps-for-mac.html
+/2014/04/30/markdown-study.html
+/2014/05/02/why-i-blog.html
+/2014/05/03/use-github-pages-to-build-your-own-blog.html
 /jekyll/update/2014/05/04/use-disqus-to-manage-comments.html
 /jekyll/update/2014/05/14/thoughts-about-POI.html
 /jekyll/update/2014/05/17/use-duoshuo.html
@@ -41,7 +41,7 @@ img/installJekyll.png
 img/less.png
 img/markdown.png
 img/Mou_128.png
-img/myQQ.png
+img/myQQ.ico
 img/platform.png
 img/sentMessage.ico
 
