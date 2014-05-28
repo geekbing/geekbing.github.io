@@ -1,5 +1,5 @@
 CACHE MANIFEST
-#v7 2014-05-28
+#v8 2014-05-28
 CACHE:
 /css/font/Lato-Light.woff
 /css/font/Lato-Bold.woff
@@ -7,8 +7,6 @@ CACHE:
 /js/jquery-1.11.0.min.js
 /js/html5.js
 /js/console.js
-/js/embed.js
-/js/analytics.js
 /js/slash.js
 /css/404.css
 /css/main.css
@@ -39,19 +37,6 @@ CACHE:
 /img/sentMessage.ico
 /index.html
 /about/index.html
-/jekyll/update/2014/04/28/welcome-to-jekyll.html
-/jekyll/update/2014/04/28/Hello-World.html
-/2014/04/29/the-useful-apps-for-mac.html
-/2014/04/30/markdown-study.html
-/2014/05/02/why-i-blog.html
-/2014/05/03/use-github-pages-to-build-your-own-blog.html
-/jekyll/update/2014/05/04/use-disqus-to-manage-comments.html
-/jekyll/update/2014/05/14/thoughts-about-POI.html
-/jekyll/update/2014/05/17/use-duoshuo.html
-/jekyll/update/2014/05/18/interesting-appleScript.html
-/jekyll/update/2014/05/20/dragon-and-juvenile.html
-/jekyll/update/2014/05/20/smartisan-t1.html
-/jekyll/update/2014/05/23/the-world-is-not-enough.html
 
 NETWORK: *
 
