@@ -1,6 +1,11 @@
 CACHE MANIFEST
-#v4 2014-05-28
+#v6 2014-05-28
 CACHE:
+/css/font/Lato-Light.woff
+/css/font/Lato-Bold.woff
+/css/font/LatoLightItalic.woff
+/js/jquery-1.11.0.min.js
+/js/html5.js
 /index.html
 /about/index.html
 /jekyll/update/2014/04/28/welcome-to-jekyll.html
