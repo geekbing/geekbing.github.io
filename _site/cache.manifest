@@ -1,11 +1,10 @@
 CACHE MANIFEST
-#v8 2014-05-28
+#v9 2014-05-28
 CACHE:
 /css/font/Lato-Light.woff
 /css/font/Lato-Bold.woff
 /css/font/LatoLightItalic.woff
 /js/jquery-1.11.0.min.js
-/js/html5.js
 /js/console.js
 /js/slash.js
 /css/404.css
