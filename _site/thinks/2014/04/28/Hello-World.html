@@ -2,7 +2,7 @@
 <html lang="en-GB">
 <head>
 	<meta charset="utf-8">
-	<title>{{ page.title }}</title>
+	<title>My first post!</title>
 	<meta name="author" content="Geek Bing">
 	<meta name="description" content="geekbing.com is a blog about Objective-C and iOS Development."> 
 	<meta name="keywords" content="GeekBing,Geekbing,geekbing,Objective-C,IOS,ios">
@@ -50,7 +50,36 @@
 		</nav>
 	</header>
 	<div id="content" class="inner">
-    	{{ content }}
+    	<div id="content" class="inner">
+			<article class="post">
+				<header>
+					<h2 class="title">My first post!</h2>
+					<div class="meta date">
+						28 Apr 2014
+					</div>
+				</header>
+				<div class="entry-content">
+					<h4>&emsp;&emsp;Hello World!</h4>
+
+				</div>
+				<!-- 多说评论框 start -->
+				<div class="ds-thread" data-thread-key="" data-title="" data-url=""></div>
+				<!-- 多说评论框 end -->
+				<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+				<script type="text/javascript">
+				var duoshuoQuery = {short_name:"geekbing"};
+					(function() {
+						var ds = document.createElement('script');
+						ds.type = 'text/javascript';ds.async = true;
+						ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+						ds.charset = 'UTF-8';
+						(document.getElementsByTagName('head')[0] 
+						 || document.getElementsByTagName('body')[0]).appendChild(ds);
+					})();
+				</script>
+				<!-- 多说公共JS代码 end -->
+			</article>
+		</div>
 	</div>
 	<footer id="footer" class="inner">
 		&copy; 2014 Geek Bing <a href="#">RSS</a>
@@ -58,3 +87,5 @@
 	<script src="/js/slash.js"></script>
 </body>
 </html>
+
+

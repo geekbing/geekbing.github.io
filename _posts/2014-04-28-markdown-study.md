@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Markdown简明语法学习"
-date:   2014-04-30
+date:   2014-04-28
+category: Technical
 ---
 Markdown 是一种轻量级的「标记语言」，它的优点很多，目前也被越来越多的写作爱好者，撰稿者广泛使用。
 

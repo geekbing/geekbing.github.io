@@ -2,7 +2,7 @@
 <html lang="en-GB">
 <head>
 	<meta charset="utf-8">
-	<title>{{ page.title }}</title>
+	<title>多说社会化评论系统</title>
 	<meta name="author" content="Geek Bing">
 	<meta name="description" content="geekbing.com is a blog about Objective-C and iOS Development."> 
 	<meta name="keywords" content="GeekBing,Geekbing,geekbing,Objective-C,IOS,ios">
@@ -50,7 +50,40 @@
 		</nav>
 	</header>
 	<div id="content" class="inner">
-    	{{ content }}
+    	<div id="content" class="inner">
+			<article class="post">
+				<header>
+					<h2 class="title">多说社会化评论系统</h2>
+					<div class="meta date">
+						17 May 2014
+					</div>
+				</header>
+				<div class="entry-content">
+					<p>最近有好友反应博客的评论系统使用起来不太方便。仔细想想也对，Disqus这个国外的社会化评论系统做得确实非常棒，但是有点不太接中国地气，Disqus上面的分享帐户Facebook和tweeter大陆的一般用户无法使用，没有国内的微博、人人等分享功能，评论时需要注册帐户也不太方便。</p>
+
+<p>所以，仔细考虑之后，将Disqus换成了国内类似的社会化评论系统多说。</p>
+
+<p>总体使用下来感觉做得一般吧，但是可定制化非常强，适合DIY。</p>
+
+				</div>
+				<!-- 多说评论框 start -->
+				<div class="ds-thread" data-thread-key="" data-title="" data-url=""></div>
+				<!-- 多说评论框 end -->
+				<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+				<script type="text/javascript">
+				var duoshuoQuery = {short_name:"geekbing"};
+					(function() {
+						var ds = document.createElement('script');
+						ds.type = 'text/javascript';ds.async = true;
+						ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+						ds.charset = 'UTF-8';
+						(document.getElementsByTagName('head')[0] 
+						 || document.getElementsByTagName('body')[0]).appendChild(ds);
+					})();
+				</script>
+				<!-- 多说公共JS代码 end -->
+			</article>
+		</div>
 	</div>
 	<footer id="footer" class="inner">
 		&copy; 2014 Geek Bing <a href="#">RSS</a>
@@ -58,3 +91,5 @@
 	<script src="/js/slash.js"></script>
 </body>
 </html>
+
+

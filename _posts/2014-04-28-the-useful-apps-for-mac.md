@@ -2,6 +2,7 @@
 layout: post
 title:  "The Useful Applications for Mac"
 date:   2014-04-29
+category: Technical
 ---
 1. [开发类](#develop)
 2. [工具类](#tools)

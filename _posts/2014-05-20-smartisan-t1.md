@@ -2,7 +2,7 @@
 layout: post
 title:  "Smartisan T1--工匠的情怀"
 date:   2014-05-20
-categories: jekyll update
+category: Thinks
 ---
 最近吸引大众目光的罗永浩锤子手机Smartisan T1终于发布了。     
 &emsp;&emsp;从最初到发布，历时长达两年时间。      

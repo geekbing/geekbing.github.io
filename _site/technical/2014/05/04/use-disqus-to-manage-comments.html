@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+	<meta charset="utf-8">
+	<title>Use Disqus to manage comments</title>
+	<meta name="author" content="Geek Bing">
+	<meta name="description" content="geekbing.com is a blog about Objective-C and iOS Development."> 
+	<meta name="keywords" content="GeekBing,Geekbing,geekbing,Objective-C,IOS,ios">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+	<!-- syntax highlighting CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+	<link href="/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="/js/console.js"></script>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	  ga('create', 'UA-50444614-1', 'geekbing.com');
+	  ga('send', 'pageview');
+	</script>
+</head>
+<body>
+	<header id="header" class="inner">
+		<h1><a href="/">Geek Bing</a></h1>
+		<span class="tagline">Web Development</span>
+		<nav id="main-nav">
+			<ul>
+				<li><a href="/about">About</a></li>
+				<li><a href="/categories/technical/">Archives</a></li>
+				<li><a href="/categories/thinks/">Thinking</a></li>
+				<li><a href="mailto:dhuzbb@gmail.com">Contact</a></li>
+			</ul>
+		</nav>
+		<nav id="mobile-nav">
+			<div class="alignleft menu">
+				<a class="button">Menu</a>
+				<div class="container">
+					<ul>
+						<li><a href="/about">About</a></li>
+						<li><a href="/categories/technical/">Archives</a></li>
+						<li><a href="/categories/thinks/">Thinking</a></li>
+						<li><a href="mailto:dhuzbb@gmail.com">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<div id="content" class="inner">
+    	<div id="content" class="inner">
+			<article class="post">
+				<header>
+					<h2 class="title">Use Disqus to manage comments</h2>
+					<div class="meta date">
+						04 May 2014
+					</div>
+				</header>
+				<div class="entry-content">
+					<h4>What is Disqus?</h4>
+
+<p><a href="http://disqus.com/">Disqus</a>是一家第三方社会化评论系统，主要为网站主提供评论托管服务。Disqus的主要目标是通过提供功能强大的第三评论系统，将当前不同网站的相对孤立、隔绝的评论系统，连接成具有社会化特性的大网。通过Disqus评论系统所具备的评论回复通知、评论分享和热文分享等社会化功能。<br>
+Disqus的官方网站做得还比较有特色。<br>
+<img src="http://geekbing.com/img/disqus.png" alt="disqus">     </p>
+
+<h4>为个人博客添加Disqus评论系统</h4>
+
+<p>其实Disqus的官方文档讲得也比较详细了，步骤和新手引导也做的比较好，这篇文档主要是为看官方文档头疼的新手做适当的讲解。<br>
+&emsp;&emsp;首先要使用Disqus的服务，必须在官网注册一个账号。你不但可以使用这个账号来为你的网站添加评论系统，托管你的评论服务，还可以使用这个账号在任何使用Disqus评论系统的网站进行留言，回复等功能，而不需重复的注册账号。<br>
+<img src="http://geekbing.com/img/disqussignup.png" alt="signUp"><br>
+&emsp;&emsp;然后按照要求填写下列信息,其中的site name按照自己的网站域名填写。Category根据自己实际情况选择。 最后点击Finish registration按钮。<br>
+<img src="http://geekbing.com/img/addDisqus.png" alt="addDisqus"><br>
+&emsp;&emsp;接下来就到了添加disqus到网站的时候。Disqus支持绝大多数主流的博客平台。并为其他没有使用博客产品的网站提供通用的代码，做到了全方位覆盖。由于个人博客是纯手工搭建，没有使用下面的任何一种博客产品，故选择第一种通用代码。<br>
+<img src="http://geekbing.com/img/platform.png" alt="addDisqus">    </p>
+
+<ol>
+<li>接下来，就是按照提示将下面的代码复制到你的模版文件中，放在你需要显示评论的地方，一般在文章的结尾处.<img src="http://geekbing.com/img/install1.png" alt="installDisqus1"><br></li>
+<li>Disqus官方还提供了javascript脚本的配置变量的<a href="http://help.disqus.com/customer/portal/articles/472098-javascript-configuration-variables">详细说明</a>，若新手对这方面不太了解，也不需要去修改，直接使用就行。<br></li>
+<li>接下来根据提示还需要复制一段脚本添加在你自己网站的模版文件中，添加的位置是&lt;/body&gt;闭标签的前面（什么？？不知道body标签在哪？那还是默默的关闭浏览器吧）。<img src="http://geekbing.com/img/install2.png" alt="installDisqus2"><br></li>
+<li>你可以通过一个链接来刷新评论，增加#disqus<em>thread到你的链接后面。点击这个链接将会刷新并返回评论数。例如：&lt;a href=&quot;http://foo.com/bar.html#disqus</em>thread&quot;&gt;Link&lt;/a&gt;<br></li>
+<li>最后，官方提供了详细的<a href="http://help.disqus.com/customer/portal/articles/565624-tightening-your-disqus-integration">个人定制说明</a>。新手其实可以直接使用官方通用的设置，等以后逐渐了解熟悉之后再去定制。<br></li>
+</ol>
+
+<p>之后就是验证你的网站的评论系统是否安装成功。</p>
+
+				</div>
+				<!-- 多说评论框 start -->
+				<div class="ds-thread" data-thread-key="" data-title="" data-url=""></div>
+				<!-- 多说评论框 end -->
+				<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+				<script type="text/javascript">
+				var duoshuoQuery = {short_name:"geekbing"};
+					(function() {
+						var ds = document.createElement('script');
+						ds.type = 'text/javascript';ds.async = true;
+						ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+						ds.charset = 'UTF-8';
+						(document.getElementsByTagName('head')[0] 
+						 || document.getElementsByTagName('body')[0]).appendChild(ds);
+					})();
+				</script>
+				<!-- 多说公共JS代码 end -->
+			</article>
+		</div>
+	</div>
+	<footer id="footer" class="inner">
+		&copy; 2014 Geek Bing <a href="#">RSS</a>
+	</footer>
+	<script src="/js/slash.js"></script>
+</body>
+</html>
+
+

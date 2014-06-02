@@ -2,7 +2,7 @@
 layout: post
 title:  "The World is Not Enough"
 date:   2014-05-23
-categories: jekyll update
+category: Thinks
 ---
 选自<<龙与少年游>>中我个人比较喜欢的一篇。
      
