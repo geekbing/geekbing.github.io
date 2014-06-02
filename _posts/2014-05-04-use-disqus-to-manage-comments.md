@@ -2,7 +2,7 @@
 layout: post
 title:  "Use Disqus to manage comments"
 date:   2014-05-04
-category: Technical
+category: technical
 ---
 ####What is Disqus?
 [Disqus](http://disqus.com/)是一家第三方社会化评论系统，主要为网站主提供评论托管服务。Disqus的主要目标是通过提供功能强大的第三评论系统，将当前不同网站的相对孤立、隔绝的评论系统，连接成具有社会化特性的大网。通过Disqus评论系统所具备的评论回复通知、评论分享和热文分享等社会化功能。       

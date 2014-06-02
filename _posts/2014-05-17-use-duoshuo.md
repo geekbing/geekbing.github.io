@@ -2,7 +2,7 @@
 layout: post
 title:  "多说社会化评论系统"
 date:   2014-05-17
-category: Technical
+category: technical
 ---
 最近有好友反应博客的评论系统使用起来不太方便。仔细想想也对，Disqus这个国外的社会化评论系统做得确实非常棒，但是有点不太接中国地气，Disqus上面的分享帐户Facebook和tweeter大陆的一般用户无法使用，没有国内的微博、人人等分享功能，评论时需要注册帐户也不太方便。
 

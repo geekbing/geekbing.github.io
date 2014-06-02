@@ -2,7 +2,7 @@
 layout: post
 title:  "有趣的AppleScript"
 date:   2014-05-18
-category: Technical
+category: technical
 ---
 无意中接触到AppleScript，并小小的研究了一下。发现它太伟大了,作为脚本语言它已经超出了本身的瓶颈,奔向几乎万能的方向了。AppleScript类似于Linux的shell脚本，但是比shell脚本简单易学，个人感觉在某些方面也更加的强大和人性化（吹捧AppleScript的客套话^_^）。    
 >文中内容主要来源于《AppleScript权威指南 第二版》以及其他一些资料（全部学习资料已上传到个人Github，单击链接可进入[下载页面](https://github.com/geekbing/geekbing.github.io/blob/master/Resources)，PS：仅用于个人学习）。

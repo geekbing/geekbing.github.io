@@ -2,7 +2,7 @@
 layout: post
 title:  "<<疑犯追踪>>第三季剧终简评"
 date:   2014-05-14
-category: Thinks
+category: thinking
 ---
 伴随着悲伤低沉的《Exit music》音乐声响起，《疑犯追踪》第三季也落下了帷幕。
 

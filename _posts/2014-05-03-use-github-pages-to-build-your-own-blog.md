@@ -2,7 +2,7 @@
 layout: post
 title:  "Use Github Pages to build your own blog ?"
 date:   2014-05-03
-category: Technical
+category: technical
 ---
 
 1. [了解Github Pages](#learnGithubPages)
