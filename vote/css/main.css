@@ -57,7 +57,7 @@ header{
 		background-color: #cdcdcd;
 	}
 	#selectCheckBox{
-		width: 235px;
+		width: 240px;
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -92,8 +92,7 @@ header{
 		margin-right: auto;		
 	}
 	#selectCheckBox{
-		width: 95%;
-		display: block;
+		width: 240px;
 		margin-left: auto;
 		margin-right: auto;
 	}
