@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Vote | 6101</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script type="text/javascript" src="js/vote.js"></script>
+</head>
+<body>
+	<header>
+		匿名投票系统
+	</header>
+	<div id="content">
+		<p id="subTitle">你心目中的寝室长</p>
+		<div id="aLine"></div>
+		<div id="selectCheckBox">
+			<input type="checkbox" name="item" value="1">星爷 
+			<input type="checkbox" name="item" value="2">杜爷 
+			<input type="checkbox" name="item" value="3">彬神
+			<input type="checkbox" name="item" value="4">方帅
+		</div>
+		<input id="submit_button" type="button" value="提交" onclick="vote();"> 
+		<table id="showResult">  
+			<tr>  
+		    	<td colspan=3><b>投票结果</b></td>  
+		 	</tr>  
+ 			<tr>  
+ 				<td>星爷</td>  
+ 				<td>
+ 					<div id="voteresult1">
+ 					</div>				
+ 				</td>  
+ 				<td>
+ 					<span id="span1">0票</span>
+ 				<td>  
+ 			</tr>  
+ 			<tr>  
+ 				<td>杜爷</td>  
+ 				<td>
+ 					<div id="voteresult2">		
+ 					</div>
+ 				</td>  
+ 				<td>
+ 					<span id="span2">0票</span>
+ 				<td>  
+ 			</tr>  	
+		 	<tr>  
+		 		<td>彬神</td>  
+		 		<td>
+		 			<div id="voteresult3">
+		 			</div>
+		 		</td>  
+		 		<td>
+		 			<span id="span3">0票</span>
+		 		<td>  
+		  	</tr>
+		  	<tr>  
+		 		<td>方帅</td>  
+		 		<td>
+		 			<div id="voteresult4">
+		 			</div>
+		 		</td>  
+		 		<td>
+		 			<span id="span4">0票</span>
+		 		<td>  
+		  	</tr>    
+		</table>  
+	</div>
+	<footer>
+		&copy;2014 <a href="http://geekbing.com">Geek Bing</a>
+	</footer>
+</body>
+</html>
