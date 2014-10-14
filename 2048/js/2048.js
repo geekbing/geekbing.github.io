@@ -8,13 +8,6 @@ function initPage()
 	initGame();
 	//绑定键盘事件
 	document.onkeydown = KeyPress;
-
-	$("container").on("swipeleft", function() {
-		alert("向左划");
-	});
-	$("container").on("swiperight", function(){
-		alert("向右划");
-	});
 }
 
 function initGame()
