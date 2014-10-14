@@ -1,0 +1,133 @@
+body {
+	margin: 0;
+	font-family: Arial;
+}
+#header {
+	text-align: center;
+	font-size: 40px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	color: #999999;
+}
+#tip{
+	color: red;
+	text-align: center;
+}
+#score {
+	text-align: center;
+	background-color: #abcdef;
+	border-radius: 10px;
+	width: 140px;
+	height: 30px;
+	margin: 50px auto 50px auto;
+	line-height: 30px;
+	color: #ffffff;
+	font-weight: 700;
+}
+#score.win{
+	background-color: red;
+	color: #fff;
+}
+#container {
+	background-color: #BBADA0;
+	width: 250px;
+	height: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 3px;
+}
+#container a.tile {
+	display: block;
+	float: left;
+	width: 50px;
+	height: 50px;
+	margin-left: 10px;
+	margin-top: 10px;
+	border-radius: 2px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 30px;
+	line-height: 50px;
+}
+#container a.valueblank {
+	background-color: #CCC0B2;
+}
+#container a.value2 {
+	font-size: 30px;
+	background-color: #EEE4DA;
+	color: #776E65;
+}
+#container a.value4 {
+	font-size: 30px;
+	background-color: #ECE0C8;
+	color: #776E65;
+}
+#container a.value8 {
+	font-size: 30px;
+	background-color: #F2B179;
+	color: #fff;
+}
+#container a.value16 {
+	font-size: 28px;
+	background-color: #F59660;
+	color: #fff;
+}
+#container a.value32 {
+	font-size: 28px;
+	background-color: #F47C61;
+	color: #fff;
+}
+#container a.value64 {
+	font-size: 28px;
+	background-color: #F65D3B;
+	color: #fff;
+}
+#container a.value128 {
+	font-size: 22px;
+	background-color: #EDD170;
+	color: #fff;
+}
+#container a.value256 {
+	font-size: 20px;
+	background-color: #DEC23D;
+	color: #fff;
+}
+#container a.value512 {
+	font-size: 20px;
+	background-color: #EDC850;
+	color: #fff;
+}
+#container a.value1024 {
+	font-size: 20px;
+	background-color: #EDC53F;
+	color: #fff;
+}
+#container a.value2048 {
+	font-size: 20px;
+	background-color: #EDC22E;
+	color: #fff;
+}
+#container a.value4096 {
+	font-size: 20px;
+	background-color: #B884AC;
+	color: #fff;
+}
+#container a.value8192 {
+	font-size: 20px;
+	background-color: #B06DA9;
+	color: #fff;
+}
+#footer {
+	text-align: center;
+	margin-top: 50px;
+	font-size: 16px;
+	color: #777;
+}
+#footer a {
+	text-decoration: none;
+	color: #777;
+}
+#footer a:hover {
+	text-decoration: underline;
+	color: #abcded;
+}
