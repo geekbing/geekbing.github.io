@@ -1,0 +1,72 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: Arial;
+}
+#header{
+	text-align: center;
+	margin: 50px auto;
+	font-size: 40px;
+	color: #777;
+}
+#mainContent{
+	width: 450px;
+	margin-left: auto;
+	margin-right: auto;
+	border:0px solid #000;
+}
+#mainContent p{
+	padding-left: 30px;
+	line-height: 30px;
+}
+#firstLine{
+	margin-left: -30px;
+	color: #555;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+#downloadBtn{
+	position: absolute;
+	display: block;
+	margin-top: -125px;
+	margin-left: 360px;
+	width: 90px;
+	height: 35px;
+	line-height: 35px;
+	font-size: 14px;
+	color: #D5000D;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 30px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #CBCBCB #B7B7B7 #B3B3B3;
+	background: #fdfdfd;
+	background: -moz-linear-gradient(top, #fdfdfd 0%, #f2f2f2 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fdfdfd), color-stop(100%,#f2f2f2));
+	background: -webkit-linear-gradient(top, #fdfdfd 0%,#f2f2f2 100%);
+	background: -o-linear-gradient(top, #fdfdfd 0%,#f2f2f2 100%);
+	background: -ms-linear-gradient(top, #fdfdfd 0%,#f2f2f2 100%);
+	background: linear-gradient(top, #fdfdfd 0%,#f2f2f2 100%);
+	-webkit-box-shadow: 10px 10px 5px #888;
+	-moz-box-shadow: 10px 10px 5px #888;
+	box-shadow: 0px 1px 5px #e8e8e8;
+	outline: none;
+}
+#downloadBtn:hover{
+	color: #666;
+}
+#footer{
+	padding-top: 150px;
+	text-align: center;
+	font-size: 1em;
+}
+#footer a{
+	color: #FF6E7C;
+	text-decoration: none;
+}
+#footer a:hover{
+	text-decoration: underline;
+}
